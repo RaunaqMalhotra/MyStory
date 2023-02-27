@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="3gC-Rl-sgJ">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--MyStoryViewController-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" userLabel="MyStoryViewController" customClass="InfoViewController" customModule="MyStory" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="4qd-Jp-oPe" userLabel="Main Stack View">
+                                <rect key="frame" x="16" y="143" width="361" height="559"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="200" horizontalCompressionResistancePriority="600" verticalCompressionResistancePriority="650" image="Raunaq's Image" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="e3D-61-D2Y" userLabel="myImage">
+                                        <rect key="frame" x="17.333333333333343" y="0.0" width="326.66666666666663" height="279.66666666666669"/>
+                                        <color key="backgroundColor" red="0.86078917980194092" green="0.73094547103817509" blue="0.80269889682266748" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="B2U-zl-SNG">
+                                        <rect key="frame" x="50.666666666666686" y="279.66666666666674" width="260" height="279.33333333333326"/>
+                                        <subviews>
+                                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Who am I?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iAz-nm-ubt" userLabel="Intro">
+                                                <rect key="frame" x="89.999999999999972" y="0.0" width="79.666666666666657" height="69.666666666666671"/>
+                                                <accessibility key="accessibilityConfiguration">
+                                                    <accessibilityTraits key="traits" staticText="YES" allowsDirectInteraction="YES"/>
+                                                </accessibility>
+                                                <gestureRecognizers/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" name="AccentColor"/>
+                                                <nil key="highlightedColor"/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="S1w-AG-SAl" appends="YES" id="cDA-9W-2uR"/>
+                                                </connections>
+                                            </label>
+                                            <label opaque="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="252" verticalCompressionResistancePriority="751" text="Learn about my hobbies" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EMV-9i-zst" userLabel="Hobbies">
+                                                <rect key="frame" x="38.333333333333329" y="69.666666666666629" width="183.33333333333337" height="70"/>
+                                                <gestureRecognizers/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" name="AccentColor"/>
+                                                <nil key="highlightedColor"/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="Gzd-oY-JKy" appends="YES" id="W1w-2o-RDX"/>
+                                                </connections>
+                                            </label>
+                                            <label opaque="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="253" verticalCompressionResistancePriority="752" text="Learn about why I chose this class" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bRy-Sz-FfX" userLabel="SW">
+                                                <rect key="frame" x="0.0" y="139.66666666666669" width="260" height="69.666666666666686"/>
+                                                <gestureRecognizers/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" name="AccentColor"/>
+                                                <nil key="highlightedColor"/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="gvX-NY-Bfz" appends="YES" id="hYz-Xd-q4m"/>
+                                                </connections>
+                                            </label>
+                                            <label opaque="NO" tag="3" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="254" verticalCompressionResistancePriority="753" text="Contact Me" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h5x-Gr-WBH" userLabel="Contact">
+                                                <rect key="frame" x="85.666666666666657" y="209.33333333333331" width="88.666666666666657" height="70"/>
+                                                <gestureRecognizers/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <color key="textColor" name="AccentColor"/>
+                                                <nil key="highlightedColor"/>
+                                                <connections>
+                                                    <outletCollection property="gestureRecognizers" destination="2vK-Lu-Vr3" appends="YES" id="NpZ-Q0-Zb3"/>
+                                                </connections>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="4qd-Jp-oPe" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="40" id="GrA-eE-afi"/>
+                            <constraint firstAttribute="trailing" secondItem="4qd-Jp-oPe" secondAttribute="trailing" constant="16" id="WHx-AW-770"/>
+                            <constraint firstItem="4qd-Jp-oPe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="aSR-3n-Aog"/>
+                            <constraint firstAttribute="bottom" secondItem="4qd-Jp-oPe" secondAttribute="bottom" constant="150" id="nGe-cI-2dK"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Raunaq Malhotra" id="CvC-O7-pKs"/>
+                    <connections>
+                        <segue destination="ygj-UB-xho" kind="show" identifier="detailSegue" id="WC7-T0-HVG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="S1w-AG-SAl">
+                    <connections>
+                        <action selector="didTapOnLabel:" destination="BYZ-38-t0r" id="OVg-qV-EZy"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="Gzd-oY-JKy">
+                    <connections>
+                        <action selector="didTapOnLabel:" destination="BYZ-38-t0r" id="6qk-kT-eOc"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="gvX-NY-Bfz">
+                    <connections>
+                        <action selector="didTapOnLabel:" destination="BYZ-38-t0r" id="1DT-N7-WPe"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="2vK-Lu-Vr3">
+                    <connections>
+                        <action selector="didTapOnLabel:" destination="BYZ-38-t0r" id="NND-Ew-GFB"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="2803.8167938931297" y="3.5211267605633805"/>
+        </scene>
+        <!--DetailViewController-->
+        <scene sceneID="0o9-O7-7d8">
+            <objects>
+                <viewController id="ygj-UB-xho" userLabel="DetailViewController" customClass="DetailViewController" customModule="MyStory" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="TAZ-r0-QF8">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="749" axis="vertical" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="jOn-6e-oYg" userLabel="Main Stack View">
+                                <rect key="frame" x="16" y="134" width="361" height="634"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="dKl-I3-V5I">
+                                        <rect key="frame" x="60.666666666666686" y="0.0" width="240" height="317"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TP1-MV-Cth">
+                                        <rect key="frame" x="160" y="317" width="41.333333333333343" height="317"/>
+                                        <accessibility key="accessibilityConfiguration">
+                                            <accessibilityTraits key="traits" adjustable="YES"/>
+                                        </accessibility>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="VAk-hE-E5a"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="jOn-6e-oYg" firstAttribute="leading" secondItem="VAk-hE-E5a" secondAttribute="leading" constant="16" id="OxC-mT-tc9"/>
+                            <constraint firstItem="jOn-6e-oYg" firstAttribute="top" secondItem="VAk-hE-E5a" secondAttribute="top" constant="31" id="bS2-af-IP8"/>
+                            <constraint firstItem="VAk-hE-E5a" firstAttribute="trailing" secondItem="jOn-6e-oYg" secondAttribute="trailing" constant="16" id="iDa-34-RXW"/>
+                            <constraint firstItem="VAk-hE-E5a" firstAttribute="bottom" secondItem="jOn-6e-oYg" secondAttribute="bottom" constant="50" id="rJb-fs-giM"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Title of page" id="k3e-HK-PSo"/>
+                    <connections>
+                        <outlet property="contextDescription" destination="TP1-MV-Cth" id="Erl-LQ-WwH"/>
+                        <outlet property="contextImage" destination="dKl-I3-V5I" id="gvM-cZ-P5E"/>
+                        <outlet property="titleOfPage" destination="k3e-HK-PSo" id="avl-UF-yJk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GPq-k0-VNr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3563" y="4"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="nfF-aW-2lG">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="3gC-Rl-sgJ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="yTA-UU-48W">
+                        <rect key="frame" x="0.0" y="59" width="393" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="WRg-Lt-RCJ"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LTA-ON-NBY" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1877.0992366412213" y="3.5211267605633805"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Raunaq's Image" width="326.66665649414062" height="322"/>
+        <namedColor name="AccentColor">
+            <color red="0.0" green="0.46000000000000002" blue="0.89000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
