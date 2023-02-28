@@ -12,7 +12,7 @@ The following **required** functionality is completed:
 
 - [x] Users are able to see a customized app icon and launch screen
 - [x] Your app should work for any screen size and orientation using AutoLayout constraints
-  - [x] Mark here if you will demostrate auto layout implemention as horizontal rotation or different phone size or both, then erase this text
+  - [x] Mark here if you will demostrate auto layout implemention as horizontal rotation or different phone size or both
 - [x] Users are able to see at least 3 context items
 - [x] Users are able to tap into each context item and see detail view contains information about each item (title, description, picture if applicable, etc.)
  
@@ -31,8 +31,7 @@ Here's a walkthrough of implemented user stories:
 
 <img src="http://g.recordit.co/bKjPH6y3xj.gif" width=300/>
 
-GIF created with ...  
-[RecordIt](https://recordit.co/) for macOS
+GIF created with [RecordIt](https://recordit.co/) for macOS
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
