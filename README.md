@@ -29,9 +29,10 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src="http://g.recordit.co/bKjPH6y3xj.gif" width=200/>
+<img src="http://g.recordit.co/bKjPH6y3xj.gif" width=300/>
 
 GIF created with ...  
+[RecordIt](https://recordit.co/) for macOS
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
