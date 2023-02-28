@@ -29,7 +29,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://s3.amazonaws.com/img0.recordit.co/qEh5nlwBiU.mp4?AWSAccessKeyId=AKIAUQ5RURZ7ND2T2B6I&Expires=1677547305&Signature=rTGypWvmYQNdYLY8WmYz3L72OtI%3D' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://recordit.co/qEh5nlwBiU.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with ...  
 <!-- Recommended tools:
