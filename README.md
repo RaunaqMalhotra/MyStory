@@ -29,7 +29,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src="http://g.recordit.co/qEh5nlwBiU.gif" width=200/>
+<img src="http://g.recordit.co/bKjPH6y3xj.gif" width=200/>
 
 GIF created with ...  
 <!-- Recommended tools:
