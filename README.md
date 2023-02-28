@@ -2,7 +2,7 @@
 
 Submitted by: **Raunaq Malhotra**
 
-**MyStory** is an app that introduces myself - Raunaq Malhotra. It uses the functionality of storyboards with UIViews, UILabels, and Navigation Controllers to achieve the task. This app is compatible with any iPhone model because of the constraints and auto-layout functionality that I've used in the app. I've also added some styling and custom background colors for each of the screens you navigate to :D <br> Simply run the app on a simulator using any iPhone model and interact with the app by clicking on one of the 4 labels. Each label tells you a little bit about me - so have fun getting to know about me! :)
+**MyStory** is an app that introduces myself - Raunaq Malhotra. It uses the functionality of storyboards with UIViews, UILabels, and Navigation Controllers to achieve the task. This app is compatible with any iPhone model because of the constraints and auto-layout functionality that I've used in the app. I've also added some styling and custom background colors for each of the screens you navigate to :D <br> Simply run the app on a simulator using any iPhone model and interact with the app by clicking on one of the 4 labels. Each label tells you a little bit about me - so have fun getting to know me better and feel free to reach out on [LinkedIn](https://www.linkedin.com/in/raunaq-malhotra-a9ab031b5/)! :)
 
 Time spent: **7** hours spent in total
 
